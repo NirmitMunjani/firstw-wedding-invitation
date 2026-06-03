@@ -1,0 +1,21 @@
+{
+  "name": "khushi-pranay-wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.462.0",
+    "canvas-confetti": "^1.9.3"
+  },
+  "devDependencies": {}
+}

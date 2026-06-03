@@ -1,0 +1,61 @@
+[2m11:03:14 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: LineWithBreak is not defined
+[39m > src/App.jsx:156:13
+    154 |          <p className="family-line">
+    155 |            {language.hero.brideFamily.map((line, index) => (
+    156 |              <LineWithBreak key={line} line={line} showBreak={index < language.hero.brideFamily.length - 1} />
+        |               ^
+    157 |            ))}
+    158 |          </p>
+ > Hero src/App.jsx:155:37
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom.development.js:19617:19
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21640:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+
+[2m11:03:14 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: LineWithBreak is not defined
+[39m > src/App.jsx:156:13
+    154 |          <p className="family-line">
+    155 |            {language.hero.brideFamily.map((line, index) => (
+    156 |              <LineWithBreak key={line} line={line} showBreak={index < language.hero.brideFamily.length - 1} />
+        |               ^
+    157 |            ))}
+    158 |          </p>
+ > Hero src/App.jsx:155:37
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom.development.js:19617:19
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21640:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+
+[2m11:03:14 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Hero> component:
+
+    at Hero (http://127.0.0.1:5173/src/App.jsx?t=1780335194669:445:43)
+    at main
+    at Invitation (http://127.0.0.1:5173/src/App.jsx?t=1780335194669:154:34)
+    at div
+    at App (http://127.0.0.1:5173/src/App.jsx?t=1780335194669:35:30)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m11:03:14 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mReferenceError[22m: LineWithBreak is not defined
+[39m > src/App.jsx:156:13
+    154 |          <p className="family-line">
+    155 |            {language.hero.brideFamily.map((line, index) => (
+    156 |              <LineWithBreak key={line} line={line} showBreak={index < language.hero.brideFamily.length - 1} />
+        |               ^
+    157 |            ))}
+    158 |          </p>
+ > Hero src/App.jsx:155:37
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom.development.js:19617:19
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21640:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+
